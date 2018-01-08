@@ -1,0 +1,54 @@
+html, body {
+	font-family:"Courier New";
+	font-size: 20px;
+	background: transparent;
+	padding:0;
+	margin:0;
+}
+
+/* Add some padding and a grey background color to containers */
+.container {
+    padding: 10px;
+    background-color: white;
+
+}
+/* Style the input elements and the submit button */
+input[type=text], input[type=submit] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+/* Add margins to the checkbox */
+input[type=checkbox] {
+    margin-top: 0px;
+}
+h2{
+    margin-top:30px;
+    
+}
+/* Style the submit button */
+input[type=submit] {
+    background-color: white;
+    -webkit-animation-name: example2; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 20s; /* Safari 4.0 - 8.0 */
+    animation-name: example2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    color: black;
+    cursor: pointer;
+    text-align: center;
+    font-family:"Courier New";
+    font-size:20px;
+}
+
+input[type=submit]:hover {
+    opacity: 0.8;
+}
+
+.container p 
+{
+    margin-bottom:20px;
+}
