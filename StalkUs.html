@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+			<title>Stalk us localheroesstore</title>
+			<script src="https://code.jquery.com/jquery-3.2.1.min.js" crossorigin="anonymous"></script>
+			<script src="js/javaSLocation.js"></script>
+			<script src="js/javaGeo.js"></script>
+			<script src="js/javaSign.js"></script>
+			<link rel="stylesheet" type="text/css" href="CSS/shoppingStyles.css">
+			<link rel="stylesheet" type="text/css" href="CSS/startStyles.css">
+			<link rel="stylesheet" type="text/css" href="CSS/StalkStyles.css">
+			<link rel="stylesheet" type="text/css" href="CSS/startStyles.css">
+	</head>
+	<body>	
+      <nav>
+            <ul><div class="mobile_menu"><div class="mobile_button" onclick="slideMenu();"><img src="Assets/menu_mobile.png"/></div></div>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="StalkUs.html" class="anime">Stalk us</a></li>
+                <li>
+                  <a href="index.html">Shop</a>
+                  <ul>
+                      <li><a href="shopTees.html">tees</a></li>
+                      <li><a href="shopJackets.html">jackets</a></li>
+                  </ul>
+                </li>
+                <li><a href="SignUp.html">Sign up</a></li>
+                <li>
+                    <button onclick="document.getElementById('id01').style.display='block'">Login</button>
+                    <div id="id01" class="modal">
+                        <span onclick="document.getElementById('id01').style.display='none'" 
+                        class="close" title="Close Modal">&times;</span>
+                        <form class="modal-content animate" action="/action_page.php">
+                            <div class="imgcontainer">
+                            <img src="Assets/vatar4.jpg" alt="Avatar" class="avatar">
+                            </div>
+                            <div class="container">
+                                <label><b>Username</b></label>
+                                <input type="text" placeholder="Enter Username" name="uname" required>
+                                <label><b>Password</b></label>
+                                <input type="password" placeholder="Enter Password" name="psw" required>
+                                <button type="submit">Login</button>
+                                <input type="checkbox" checked="checked"> Remember me
+                            </div>
+                        </form>
+                    </div>
+                </li>
+                 <li><audio id="music" controls="controls">
+                      <source src="Assets/toxic.mp3" type="audio/mpeg"/>
+                </audio>
+                </li>
+            </ul>
+        </nav>
+        
+        <section>
+            <div class="header2">
+                <div class="space"></div>
+                <div class="logotype">
+                    <img src="Assets/logo2.png"/>
+                </div>
+            </div>
+            <div class="yt">
+            <video width="300" height="220" autoplay controls="true">
+            <source src="Assets/onemore.mp4" type="video/mp4" />
+            </video>
+            </div>
+            <div class="location">
+            <div id="map"></div>
+                <script async defer
+                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCXtx8CrxwRDGY5XCsan-WXJv5YEY2WS-E&callback=initMap">
+                </script>
+            </div>
+            <div class="cent"><div class="centering"><button onclick="getLocation()" id="tryIt">Get your localization</button></div></div>
+            <div class="dane_space">
+               <div class="dane">
+                    <p>Postcode: 00 511,</p>
+                    <p>31 Nowogrodzka street </p>
+                    <p>Warsaw</p>
+                </div>
+            </div>
+            <div id="fb">
+        <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FLOCALHEROESstore%2F&width=50px&layout=standard&action=like&size=large&show_faces=true&share=true&height=80&appId" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+            </div>
+        </section>
+
+    <footer>
+       
+       <div class="foot">
+            Local Heroes Store&copy
+        </div>
+    </footer>
+</body>        
+</html>

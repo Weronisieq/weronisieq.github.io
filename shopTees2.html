@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+			<title>[2] Shop tees localheroesstore</title>
+			<script src="https://code.jquery.com/jquery-3.2.1.min.js" crossorigin="anonymous"></script>
+			<script src="js/javaTees2.js"></script>
+			<script src="js/javaSign.js"></script>
+			<link rel="stylesheet" type="text/css" href="CSS/startStyles.css">
+			<link rel="stylesheet" type="text/css" href="CSS/shoppingStyles.css">
+	</head>
+	
+<body>	
+    <nav>
+        <ul><div class="mobile_menu"><div class="mobile_button" onclick="slideMenu();"><img src="Assets/menu_mobile.png"/></div></div>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="StalkUs.html">Stalk us</a></li>
+            <li>
+              <a href="" class="anime">Shop</a>
+              <ul>
+                  <li><a href="shopTees.html" class="anime">tees</a></li>
+                  <li><a href="shopJackets.html" >jackets</a></li>
+              </ul>
+            </li>
+            <li><a href="SignUp.html">Sign up</a></li>
+            <li>
+<button onclick="document.getElementById('id01').style.display='block'">Login</button>
+<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'" 
+class="close" title="Close Modal">&times;</span>
+  <form class="modal-content animate" action="/action_page.php">
+    <div class="imgcontainer">
+      <img src="Assets/vatar4.jpg" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <label><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+      <button type="submit">Login</button>
+      <input type="checkbox" checked="checked"> Remember me
+    </div>
+  </form>
+</div></li>
+ <li><audio id="music" controls="controls">
+                      <source src="Assets/toxic.mp3" type="audio/mpeg"/>
+                </audio>
+                </li>
+        </ul>
+    </nav>
+	<div class="header2">
+        <div class="space"></div>
+        <div class="logotype">
+            <img src="Assets/logo2.png"/>
+        </div>
+	</div>
+	
+	<div class="ramka_space">
+	    <div class="ramka">
+            <p>FREE WORLDWIDE SHIPPING</p>
+        </div>
+	</div>
+
+    <header class="header"></header>
+    <section class="products"></section>
+     <footer>
+          <div class="pagination">
+              <a href="shopTees.html">&laquo;</a>
+              <a href="shopTees.html">1</a>
+              <a href="shopTees2.html" class="active" >2</a>
+              <a href="shopTees2.html">&raquo;</a>
+        </div>
+    </footer>
+	</body>
+</html>
