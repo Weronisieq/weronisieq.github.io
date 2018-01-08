@@ -1,0 +1,124 @@
+@media screen and (max-width:640px) { /* MOBILE */
+    .main_pic {display: none;}
+}
+
+@media screen and (max-width:800px) { /* MOBILE */
+    .main_pic {display: none;}
+}
+
+@media screen and (min-width:800px) { /* DESKTOP */
+    .main_pic {display: block;}
+}
+
+
+.main_pic {
+	height:calc(100vh - 50px);
+	width:100%;
+    background-image: url(../Assets/lcl.jpeg);
+    background-size: cover;
+    position: relative;
+    z-index: 50;
+}
+
+.main_pic img {
+    width: 100%;
+    max-height: 100%;
+}
+
+.our_offer {
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    top: 65%;
+    transform: translateY(-65%);
+}
+
+.BTN_offer {
+    font-family: 'Roboto Condensed', sans-serif;
+    height: 50px;
+    width: 20%;
+    margin: 0 auto;
+    line-height: 50px;
+    text-align: center;
+    border: 3px solid white;
+    background-color: rgba(42,154,241, 0.75);
+    color: white; 
+    text-transform: uppercase;
+    transition: .2s all linear;
+    font-size: 17px;
+}
+
+.BTN_offer:hover {
+    cursor: pointer;
+    background-color: rgba(0,0,0, 0.75);
+    transition: .2s all linear;
+}
+
+.big_pics {
+    width: 100%;
+    margin-top: 75px;
+    text-align: center;
+    position: relative;
+}
+
+.big_pic {
+    width: auto;
+    height: 60vh;
+    display: inline-block;
+}
+
+.big_pic img {
+    max-height: 100%;
+}
+
+.big_pic:hover {
+    box-sizing: border-box;
+    border: 3px solid pink;
+}
+
+#pic2 img {
+    margin: 10px 0 10px 0;
+    height: 100%;
+}
+
+#pic3 {
+    float: left;
+}
+
+#pic4 {
+    float: right;
+}
+
+#pic1 {
+	width: 130px;
+	height:130px;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+
+#bxSlider
+{
+	margin-top:100px;
+    width: 100%;
+    text-align: center;
+}
+
+#pic2 img:hover {
+    border: 3px solid pink;
+    box-sizing: border-box;
+}
+
+.foot {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-top: 30px;
+    height: 50px;
+    width: 100%;
+    background-color: pink;
+    text-align: center;
+    line-height: 50px;
+}
+
+.widmo_nav {
+    height: 50px;
+}
