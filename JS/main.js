@@ -21,7 +21,7 @@ function preload() {
 }
 
 function setup() {
-
+    
     createCanvas(600, 300);
     image(img, 0, 0, 600, 300);
 

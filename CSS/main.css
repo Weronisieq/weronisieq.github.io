@@ -63,7 +63,7 @@ textarea {
  * This may be not scalable but okay for the purpose of this template. */
 #defaultCanvas0 {
     position: fixed;
-    top: 0;
+    top: 60px;
     left: 0;
     z-index: -5;
 }
