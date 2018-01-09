@@ -1,5 +1,3 @@
-var x = document.getElementById("demo");
-
 function getLocation() {
     if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(showPosition, showError);
@@ -10,9 +8,12 @@ function getLocation() {
 
 function showPosition(position) {
     var latlon = position.coords.latitude + "," + position.coords.longitude;
-    var img_url = "key=AIzaSyCXtx8CrxwRDGY5XCsan-WXJv5YEY2WS-E";
+    var img_url = "https://maps.googleapis.com/maps/api/staticmap?center="
+    +latlon+"&zoom=14&size=400x300&key=AIzaSyCXtx8CrxwRDGY5XCsan-WXJv5YEY2WS-E";
     document.getElementById("mapholder").innerHTML = "<img src='"+img_url+"'>";
 }
+//To use this code on your website, get a free API key from Google.
+//Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
 
 function showError(error) {
     switch(error.code) {
