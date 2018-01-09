@@ -196,13 +196,12 @@ textarea {
 }
 
 .toolkit {
-    position: absolute;
+    position: relative;
     left: 600px;
     top: 0;
     width: 100px;
     height: 320px;
     background: white;
-    margin-top:200px;
 }
 
 .colors, .sizes {
