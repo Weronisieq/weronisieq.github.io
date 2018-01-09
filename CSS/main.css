@@ -6,6 +6,9 @@ html {
     line-height: 1.4;
 }
 
+body{
+    font-family: "Curier New";  
+}
 ::-moz-selection {
     background: #b3d4fc;
     text-shadow: none;
@@ -199,6 +202,7 @@ textarea {
     width: 100px;
     height: 320px;
     background: white;
+    margin-top:200px;
 }
 
 .colors, .sizes {
