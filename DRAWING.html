@@ -6,18 +6,61 @@
         <title>Drawing</title>
         <meta name="description" content="">
         <meta name="theme-color" content="#212121" />
-
+        <script src="JS/javaSign.js"></script>
+        <link rel="stylesheet" type="text/css" href="CSS/indexStyles.css">
+        <link rel="stylesheet" type="text/css" href="CSS/startStyles.css">
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="CSS/reset.css">
         <link rel="stylesheet" href="CSS/main.css">
 
     </head>
     <body>
+        <nav>
+            <ul><div class="mobile_menu"><div class="mobile_button" onclick="slideMenu();"><img src="Assets/menu_mobile.png"/></div></div>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="StalkUs.html">Stalk us</a></li>
+                <li>
+                  <a href="index.html">Shop</a>
+                  <ul>
+                      <li><a href="shopTees.html">tees</a></li>
+                      <li><a href="shopJackets.html">jackets</a></li>
+                  </ul>
+                </li>
+                <li><a href="DRAWING.html"  class="anime">Customise</a></li>
+                <li><a href="SignUp.html">Sign up</a></li>
+                <li>
+                    <a onclick="document.getElementById('id01').style.display='block'" style="cursor: pointer;">Login</a>
+                    <div id="id01" class="modal">
+                        <span onclick="document.getElementById('id01').style.display='none'" 
+                        class="close" title="Close Modal">&times;</span>
+                        <form class="modal-content animate" action="/action_page.php">
+                            <div class="imgcontainer">
+                                  <img src="Assets/vatar4.jpg" alt="Avatar" class="avatar">
+                            </div>
+                            <div class="container">
+                                <label><b>Username</b></label>
+                                <input type="text" placeholder="Enter Username" name="uname" required>
+                                <label><b>Password</b></label>
+                                <input type="password" placeholder="Enter Password" name="psw" required>
+                                <button type="submit">Login</button>
+                                <input type="checkbox" checked="checked"> Remember me
+                            </div>
+                        </form>
+                    </div>
+                </li>
+                  <li><audio id="music" controls="controls">
+                      <source src="Assets/toxic.mp3" type="audio/mpeg"/>
+                </audio>
+                </li>
+            </ul>
+        </nav>
+        <div class="widmo_nav"></div>
         
         <div class="toolkit">
             <div class="colors"></div>
             <div class="sizes"></div>
         </div>
-
         <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
         <script language="javascript" type="text/javascript" src="js/p5.js"></script>
         <script language="javascript" type="text/javascript" src="js/p5.svg.js"></script>
