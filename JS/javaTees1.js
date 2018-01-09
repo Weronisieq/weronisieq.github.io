@@ -185,6 +185,7 @@ var app = {
                 $(`.${app.containers.recipie}`).remove()
                 $(app.containers.header).append(app.recipie.generateView())
             }
+            //save  local storage
 
             app.events.init()
 
@@ -213,7 +214,7 @@ var app = {
                 .forEach(function(element){
                     element.addEventListener('click', app.events.toggle)
                 })
-
+//check local storage and set products array again
         }
 
     },
