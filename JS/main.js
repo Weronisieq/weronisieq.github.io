@@ -14,14 +14,14 @@ let img, color = colors[0], size = sizes[0];
 /* ----- p5 ----- */
 
 function preload() {
-
+    console.log('preload fired');
     img = loadImage('./images/tshirt.jpg');
     frameRate(120);
 
 }
 
 function setup() {
-    
+    console.log('setup fired');
     createCanvas(600, 300);
     image(img, 0, 0, 600, 300);
 

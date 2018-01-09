@@ -7,7 +7,8 @@ html {
 }
 
 body{
-    font-family: "Curier New";  
+    font-family: "Courier New";
+	font-size: 20px;
 }
 ::-moz-selection {
     background: #b3d4fc;
