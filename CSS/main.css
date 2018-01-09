@@ -62,7 +62,7 @@ textarea {
 /* For convenience the canvas gets attributes without a helper class.
  * This may be not scalable but okay for the purpose of this template. */
 #defaultCanvas0 {
-    position: relative;
+    position: absolute;
     top: 60px;
     left: 0;
     z-index: -5;
