@@ -8,11 +8,14 @@ body {
     float:left;
 }
 #photos{
+    margin-top: 50px;
     width:100%;
-    height:180px;
-    margin-left:100px;
-        
-    }
+    text-align: center;     
+}
+
+#photos img {
+    display: inline-block;
+}
 
 p
 {
@@ -20,9 +23,14 @@ p
     margin-top:10px;
 }
 
+.video_space {
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+}
+
 video
 {
-    margin-top:20px;
-    margin-left:35%;
-    margin-bottom: 40px;
+    display: inline-block;
+    max-height: 300px;
 }
