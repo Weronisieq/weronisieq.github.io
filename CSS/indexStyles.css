@@ -89,21 +89,6 @@
     float: right;
 }
 
-#pic1 {
-	width: 130px;
-	height:130px;
-    display: inline-block;
-    margin-top: 5px;
-}
-
-
-#bxSlider
-{
-	margin-top:100px;
-    width: 100%;
-    text-align: center;
-}
-
 #pic2 img:hover {
     border: 3px solid pink;
     box-sizing: border-box;
