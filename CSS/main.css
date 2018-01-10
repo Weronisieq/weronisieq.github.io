@@ -94,7 +94,7 @@ textarea {
  * This may be not scalable but okay for the purpose of this template. */
 #defaultCanvas0 {
     position: absolute;
-    top: 63%;
+    top: 66%;
     left: 24%;
     z-index: -5;
     text-align: center;
@@ -232,7 +232,7 @@ textarea {
     position: absolute;
     width: 100px;
     height: 320px;
-    margin-right:300px;
+    margin-right:350px;
 }
 
 .toolkit2 {
