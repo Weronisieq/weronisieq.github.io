@@ -3,17 +3,16 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Drawing</title>
-        <meta name="description" content="">
-        <meta name="theme-color" content="#212121" />
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <title>Video</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js" crossorigin="anonymous"></script>
         <script src="JS/javaSign.js"></script>
+        <script src="JS/javaLocalStorage.js"></script>
         <link rel="stylesheet" type="text/css" href="CSS/indexStyles.css">
         <link rel="stylesheet" type="text/css" href="CSS/startStyles.css">
+        <link rel="stylesheet" type="text/css" href="CSS/audioStyles.css">
         <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="CSS/reset.css">
-        <link rel="stylesheet" href="CSS/main.css">
 
     </head>
     <body>
@@ -28,8 +27,8 @@
                       <li><a href="shopJackets.html">jackets</a></li>
                   </ul>
                 </li>
-                <li><a href="DRAWING.html"  class="anime">Customise</a></li>
-                  <li><a href="video.html">Video</a></li>
+                <li><a href="DRAWING.html">Customise</a></li>
+                  <li><a href="video.html" class="anime">Video</a></li>
                 <li><a href="SignUp.html">Sign up</a></li>
                 <li>
                     <a onclick="document.getElementById('id01').style.display='block'" style="cursor: pointer;">Login</a>
@@ -54,13 +53,10 @@
             </ul>
         </nav>
         <div class="widmo_nav"></div>
-        <div class="toolkit">
-            <div class="colors"></div>
-            <div class="sizes"></div>
-        </div>
-        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-        <script language="javascript" type="text/javascript" src="JS/p5.js"></script>
-        <script language="javascript" type="text/javascript" src="JS/p5.svg.js"></script>
-        <script src="JS/main.js"></script>
+         Change the background color! <input type ="color" id="selColour">
+         <audio id="music" controls="controls">
+        <source src="Assets/toxic.mp3" type="audio/mpeg"/>
+        </audio>
     </body>
 </html>
+

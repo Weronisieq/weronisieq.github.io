@@ -1,11 +1,16 @@
-localStorage.getItem('info');
-localStorage.setItem('info,'some data';);
-
-if(localStorage && localStorage.getItem('info'))
+$( document ).ready()
+$(function()
 {
-var=localStorage.getItem('info');
-}
+	if(localStorage && localStorage.getItem('background'))
+	{   
+		var colour = localStorage.getItem('background'); 
+		$('body').css("background-color", colour);
+    } 
+ 
 
-localStorage.setItem('price','1.99');
-localStorage.setItem('qty','10');
-localStorage.setItem('colour','green');
+	$('#selColour').change(function() {
+	console.log($('#selColour').val()); 
+	localStorage.setItem('background', $('#selColour').val()); 
+	$('body').css("background-color", $('#selColour').val());
+	})
+});
