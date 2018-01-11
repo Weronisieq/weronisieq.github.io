@@ -3,7 +3,6 @@
 @media screen and (max-width:640px) {
     .ramka_space {display: none;}
     nav > ul > li {
-        float: clear;
         width: 100%;
         display: none;
     }
@@ -275,11 +274,6 @@ img.avatar {
 .animate {
     -webkit-animation: animatezoom 0.6s;
     animation: animatezoom 0.6s
-}
-
-@-webkit-keyframes animatezoom {
-    from {-webkit-transform: scale(0)} 
-    to {-webkit-transform: scale(1)}
 }
 
 @keyframes animatezoom {
