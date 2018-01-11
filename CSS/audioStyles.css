@@ -2,11 +2,12 @@ body {
     background-color: white;
     
 }
-
+/* audio settings */
 .music {
     
     float:left;
 }
+/* gallery */
 #photos{
     margin-top: 50px;
     width:100%;

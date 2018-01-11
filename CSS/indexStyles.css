@@ -1,3 +1,4 @@
+/* responsive design */
 @media screen and (max-width:640px) { /* MOBILE */
     .main_pic {display: none;}
 }
@@ -24,7 +25,7 @@
     width: 100%;
     max-height: 100%;
 }
-
+/* button at the bug picture */
 .our_offer {
     height: 50px;
     width: 100%;
