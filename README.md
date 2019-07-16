@@ -1,5 +1,5 @@
 # MyFirstWebsite
-This website is my final project for website developement classes in the 1st semester of the computer science course at the University of Linoln in the UK. It's my first project made with HTML and CSS. 
+It's my first project made with HTML and CSS. I copies the jQuery/JS code from the net just to make the shop "work". The code isn't good but it shows my basic understanding of HTML and CSS fundamentals. 
 Learning outcomes:
 [LO1] understand the strengths and weaknesses of current web specifications and standards over
 previous version iterations.
